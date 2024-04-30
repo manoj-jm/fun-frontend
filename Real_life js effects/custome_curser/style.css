@@ -1,0 +1,41 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: 'arial';
+    color: #fff;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    cursor: url(rocket-2-fill.png),pointer;
+    cursor: white;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cursor{
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+    mix-blend-mode:difference;
+    border-radius: 50%;
+    position: absolute;
+    /* visibility: none; */
+}
+
+
+h1{
+    font-size: 9vw;
+    font-weight: 800;
+}
+
+h1:hover{
+    color: black; 
+    /* box-shadow:  10px 5px 5px white;    */
+    filter: drop-shadow(0px 0px 3px white );
+}

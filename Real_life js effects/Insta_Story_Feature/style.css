@@ -1,0 +1,83 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+html,body{
+    height: 100%;width: 100%;
+}
+:root{
+    --border-color: linear-gradient(yellow,orange,red,purple,blue);
+  
+}
+body{
+    background-color: rgb(255, 0, 76);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card{
+    height: 480px;
+    width: 320px;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 2px solid black;
+    position: relative;
+}
+
+i{
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color:white;
+    border-radius: 11px;    
+    
+}
+
+#storyh{
+    height: 140px;
+    width: 100%;
+    border-bottom: 1px solid #dadada;
+    padding: 25px;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#storyh::-webkit-scrollbar{
+    display: none;
+}
+.story{
+    height: 80px;
+    width: 80px;
+    border:3px solid red;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    margin: 4px;
+    cursor: pointer;
+    
+}
+
+.story img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* border-radius: 50%; */
+}
+
+#full-screen{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    position: absolute;
+    display: none;
+}
