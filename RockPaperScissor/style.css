@@ -1,6 +1,7 @@
 *{
   margin: 0;padding: 0;
   text-align: center;
+  font-size: 14px;
 }
 
 h1{
@@ -8,6 +9,7 @@ h1{
   color: white;
   height: 5rem;
   line-height:5rem;
+  font-size:3.3rem;
 }
 
 .chooice{
@@ -25,12 +27,22 @@ h1{
   box-shadow: 0px 0px 0px 2px rgb(96, 96, 96);
 }
 
-.score-board{
+.score-container{
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+
+
+.score-board{
+  text-align: center;
+  width:400px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   column-gap: 10px;
   margin: 54px;
-  font-size: 3.1rem;
   font-weight: 800;
 }
 
@@ -38,8 +50,9 @@ h1{
   background-color: #000;
   color: white;
   display: inline; 
-
   font-size: 3.6rem;
   padding: .8rem;
+  position: relative;
+  bottom: 15px;
   border-radius: 1rem;
 }
