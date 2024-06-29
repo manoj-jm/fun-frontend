@@ -10,7 +10,7 @@
   min-height: 100vh;
   background: linear-gradient(135deg, rgb(227, 142, 15), rgb(19, 179, 125));
   background-image: url(./To-Do-Img/images/icon.png);
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   padding: 12px;
   border: none;
@@ -25,15 +25,17 @@
   padding: 40px 30px 70px;
   border-radius: 10px;
 }
-.todoapp h2{
-  color:rgb(0, 0, 0);
+
+.todoapp h2 {
+  color: rgb(0, 0, 0);
   display: flex;
   font-size: 2rem;
   justify-content: space-between;
   align-items: center;
   text-align: center;
 }
-.todoapp h2 img{
+
+.todoapp h2 img {
   width: 70px;
   margin: 12px;
 }
@@ -43,16 +45,17 @@
 }
 
 .todoapp .search input {
-  border:1px solid black;
+  border: 1px solid black;
   padding: .4rem;
   width: 100%;
-  margin-right: 10px; 
+  margin-right: 10px;
   border-radius: 20px;
   background-color: rgb(246, 245, 243);
   outline: none;
 
 }
-.todoapp .search button{
+
+.todoapp .search button {
   padding: .5rem;
   font-size: 24px;
   width: auto;
@@ -64,43 +67,43 @@
 
 
 
-ul li{
+ul li {
   list-style: none;
   font-size: 17px;
   padding: 12px 8px 12px 50px;
   user-select: none;
   cursor: pointer;
-  position:relative;
+  position: relative;
 }
 
-ul li::before{
+ul li::before {
   content: '';
-  position:absolute;
+  position: absolute;
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background:url(./To-Do-Img/images/unchecked.png);
+  background: url(./To-Do-Img/images/unchecked.png);
   background-size: cover;
   background-position: center;
   top: 12px;
   left: 8px;
 }
 
-.checked{
-  color:#555;
+.checked {
+  color: #555;
   text-decoration: line-through;
 }
 
-.checked::before{
-  background:url(./To-Do-Img/images/checked.png);
+.checked::before {
+  background: url(./To-Do-Img/images/checked.png);
   background-size: cover;
 }
 
-ul li span{
-  position : absolute;
-  right : 10px;
+ul li span {
+  position: absolute;
+  right: 10px;
 }
 
-ul li span:hover{
+ul li span:hover {
   background: #cabdbd;
 }
