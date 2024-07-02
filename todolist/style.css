@@ -9,7 +9,7 @@
   width: 100%;
   min-height: 100vh;
   background: linear-gradient(135deg, rgb(227, 142, 15), rgb(19, 179, 125));
-  background-image: url(./To-Do-Img/images/icon.png);
+  /* background-image: url(./To-Do-Img/images/icon.png); */
   background-repeat: no-repeat;
   background-size: cover;
   padding: 12px;

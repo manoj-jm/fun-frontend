@@ -3,12 +3,11 @@ const listcoll = document.getElementById("listcontainer");
 
 //select the ❌ (span) element
 
-addEventListener('keydown',function(e){
-  if(e.key === 'Enter'){
+addEventListener("keydown", function (e) {
+  if (e.key === "Enter") {
     addTask();
   }
-})
-
+});
 
 function addTask() {
   if (inputbox.value === "") {
@@ -45,8 +44,8 @@ listcoll.addEventListener(
 function savedata() {
   localStorage.setItem("data", listcoll.innerHTML);
 }
-function showdata(){
-  listcoll.innerHTML = localStorage.getItem('data');
+function showdata() {
+  listcoll.innerHTML = localStorage.getItem("data");
 }
 
 showdata();
