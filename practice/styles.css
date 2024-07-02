@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
   margin: 0;padding: 0;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Archivo (woff) ',sans-serif;
 
   box-sizing: border-box;
 }
@@ -59,7 +61,6 @@ nav .left  button{
 .hero .hero_head{
   font-size: 50px;
   margin-bottom: 12px;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
 }
 
@@ -72,3 +73,92 @@ nav .left  button{
   outline: none;
   box-shadow: 0px 0px 5px grey;
 }
+
+
+/* about section  */
+
+.aboutflex{
+  display: flex;
+  justify-content: center;
+
+}
+.about_sec{
+margin-top: 40px;
+  width: 850px;
+  display: grid;
+  grid-template-columns: 400px 400px;
+  gap:50px;
+
+}
+
+
+.about {
+  display: flex;
+  flex-direction: row;
+  /* border:2px solid red; */
+  outline: #362f2f;
+  max-width: 570px;
+  width: 370px;
+  box-shadow: 0 0 3px #362f2f;
+  margin: 3rem;
+
+}
+
+.about img{
+  width: 25%;
+  height: 25%;
+  margin:15px;
+  object-fit: cover;
+}
+.about .content{
+  font-size: 15px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 12px ;
+  gap: 9px;
+}
+
+/* footer section */
+
+.footer_sec{
+  background-color: black;
+  color: white;
+  margin-top: 13px;
+  height: 400px;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5em;
+}
+
+.row .footer_col h4{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.row .footer_col ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column ;
+  gap: 7px;
+}
+
+.contact{
+  margin-top: 15px;
+}
+
+
+.copyright{
+  font-size: 20px;
+  text-align: center;
+  margin: 10px;
+  border-top: 2px solid white;
+  padding:8px;
+}
+
+
+
